@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*--->Styles<---*/
+/*Perfomance*/
+.Performance {
+    width: 100%;
+    height: 100%;
+    background: url(images/background.png);
+    background-size: 100% auto;
+    background-position: center;
+    float: left;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.Performance h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.Performance h3 {
+    font-size: 24px;
+}
+
+/*header*/
+header {
+    width: 100%;
+    top: 20px;
+    height: 10%;
+    background: #ffffff;
+    position: absolute;
+    min-height: 70px;
+}
+
+header .header-block{
+    max-width: 1900px;
+    display: inline-block;
+}
+
+header .header-block .logo {
+    position: absolute;
+    left: 9%;
+    top: 0;
+    height: 100%;
+}
+
+header .header-block .logo img {
+    height: 85%;
+}
+
+header .header-block .menu {
+    list-style: none;
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    color: black;
+    font-size: 18px;
+
+}
+
+header .header-block .menu li{
+    display: inline;
+    margin-left: 38px;
+    cursor: pointer;
+}
+
+header .header-block .backcall {
+    position: absolute;
+    right: 5%;
+    color: #000000;
+    list-style: none;
+    text-align: center;
+    height: 100%;
+    top: 15%;
+}
+
+header .header-block .backcall li {
+    margin-bottom: 5%;
+}
+
+header .header-block .backcall .number {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+header .header-block .backcall .apply {
+    font-size: 18px;
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*AreasOfWork*/
+.AreasOfWork {
+    background-color: #01DF3A;
+    width: 100%;
+    float: left;
+}
+
+.AreasOfWork h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.AreasOfWork .PicturesAreasOfWork {
+    max-width: 1900px;
+    height: 800px;
+    margin-top: 30px;
+    float: left;
+}
+
+.AreasOfWork .PicturesAreasOfWork .ContextualAdvert {
+    height: 50%;
+    width: 70%;
+    background-color: black;
+    float: left;
+    position: relative;
+}
+
+.AreasOfWork .PicturesAreasOfWork .ContextualAdvert:hover img {
+    opacity: 1;
+}
+
+.AreasOfWork .PicturesAreasOfWork .ContextualAdvert:hover .TextForImage {
+    background-color: #0B243B;
+}
+
+.AreasOfWork .PicturesAreasOfWork .TargetingAdvert {
+    height: 50%;
+    width: 30%;
+    background-color: black;
+    float: left;
+    position: relative;
+}
+
+.AreasOfWork .PicturesAreasOfWork .TargetingAdvert:hover img {
+    opacity: 1;
+}
+
+.AreasOfWork .PicturesAreasOfWork .TargetingAdvert:hover .TextForImage {
+    background-color: #0B243B;
+}
+
+.AreasOfWork .PicturesAreasOfWork .MakingSites {
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    float: left;
+    position: relative;
+}
+
+.AreasOfWork .PicturesAreasOfWork .MakingSites:hover img {
+    opacity: 1;
+}
+
+.AreasOfWork .PicturesAreasOfWork .MakingSites:hover .TextForImage {
+    background-color: #0B243B;
+}
+
+.AreasOfWork .PicturesAreasOfWork .SMM {
+    height: 50%;
+    width: 24%;
+    background-color: black;
+    float: left;
+    position: relative;
+}
+
+.AreasOfWork .PicturesAreasOfWork .SMM:hover img {
+    opacity: 1;
+}
+
+.AreasOfWork .PicturesAreasOfWork .SMM:hover .TextForImage {
+    background-color: #0B243B;
+}
+
+.AreasOfWork .PicturesAreasOfWork .Audit {
+    height: 50%;
+    width: 26%;
+    background-color: black;
+    float: left;
+    position: relative;
+}
+
+.AreasOfWork .PicturesAreasOfWork .Audit:hover img {
+    opacity: 1;
+}
+
+.AreasOfWork .PicturesAreasOfWork .Audit:hover .TextForImage {
+    background-color: #0B243B;
+}
+
+.AreasOfWork .PicturesAreasOfWork img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}
+
+
+.AreasOfWork .PicturesAreasOfWork .TextForImage {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 2%;
+    padding-left: 20px;
+    padding-right: 1%;
+    padding-top: 10px;
+    z-index: 99999;
+    float: left;
+    background-color: transparent;
+}
+
+.AreasOfWork .PicturesAreasOfWork .TextForImage h4 {
+    font-size: 26px;
+    color: white;
+}
+
+.AreasOfWork .PicturesAreasOfWork .TextForImage ul {
+    list-style: none;
+    color: #D8D8D8;
+    font-size: 20px;
+}
+
+.AreasOfWork .AboutUs {
+    max-width: 1900px;
+    float: left;
+    margin-top: 80px;
+}
+
+.AreasOfWork .AboutUs .Info {
+    width: 70%;
+    margin: 0 15%;
+    color: #ffffff;
+}
+
+.AreasOfWork .AboutUs .Info h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.AreasOfWork .AboutUs .Info p {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.AreasOfWork .AboutUs .AbtUsImg {
+    width: 70%;
+    height: auto;
+    margin: 5% 15%;
+    position: relative;
+}
+
+.AreasOfWork .AboutUs .AbtUsImg img {
+    width: 100%;
+}
+
+.AreasOfWork .AboutUs .AbtUsImg .DateTime {
+    background: transparent;
+    position: absolute;
+    width: 10%;
+    height: 23%;
+    left: 9%;
+    bottom: 38%;
+    text-align: center;
+    z-index: 99999;
+}
+
+.AreasOfWork .AbtUsImg .DateTime .Month {
+    position: absolute;
+    top: 5px;
+    text-align: center;
+    width: 100%
+}
+
+.AreasOfWork .AbtUsImg .DateTime .Day{
+    position: absolute;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+    top: 18%;
+    height: 60%;
+    text-shadow: white 0px 0px 10px;
+    color: #01DF3A;
+}
+
+.AreasOfWork .AbtUsImg .DateTime .DayOfWeek{
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+
+/*GoogleMap*/
+.GoogleMap {
+    width: 100%;
+    height: 600px;
+    float: left;
+    background-color: black;
+    overflow: hidden;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+/*footer*/
+footer {
+    padding: 0 5%;
+    width: 90%;
+    height: 40%;
+    background-color: #0B243B;
+    float: left;
+    min-height: 270px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+footer .footMenu {
+    float: left;
+    list-style: none;
+    margin-top: 60px;
+    color: white;
+}
+
+footer .footMenu li {
+    margin-bottom: 20px;
+}
+
+footer .footAreasOfWork {
+    float: left;
+    list-style: none;
+    margin-top: 60px;
+    color: #D8D8D8;
+}
+
+footer .footAreasOfWork li {
+    margin-bottom: 20px;
+}
+
+footer .Application {
+    color: #D8D8D8;
+    margin-top:  60px;
+    float: left;
+}
+
+footer .Application .formTitle {
+    margin-bottom: 10px;
+}
+
+footer #ApplicationForm div {
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+footer input {
+    width: 96%;
+    padding: 0 2%;
+}
+
+footer button {
+    width: 52%;
+    margin-left: 24%;
+    margin-top: 5px;
+}
+
+footer .Contacts {
+    font-size: 30px;
+    list-style: none;
+    float: left;
+    margin-top: 60px;
+    color: #A598F4;
+}
+
+footer .Contacts li {
+    margin-bottom: 10px;
+}
+
+footer .SocialNetsShare {
+    color: #D8D8D8;
+    float: left;
+    margin-top: 60px;
+}
+
+footer .SocialNetsShare table {
+    margin: auto;
+    border-spacing: 10px 20px;
+}
+
+footer .SocialNetsShare td {
+    height: 50px;
+    width: 50px;
+}
+
+footer .SocialNetsShare img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Media*/
+@media screen and (max-width: 601px) {
+    html {
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%
+    }
+
+    .Performance {
+        height: 70%;
+        background-size: 160% 110%;
+        background-position: top;
+        justify-content: flex-end;
+        align-content: center;
+        text-align: left;
+    }
+
+    .Performance h1 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        margin-left: 40px;
+    }
+
+    .Performance h3 {
+        font-size: 16px;
+        margin-left: 40px;
+        margin-bottom: 130px;
+    }
+
+    header {
+        top: 15px;
+        height: 70px;
+        position: absolute;
+    }
+
+    header .header-block .menuButt {
+        background: url(images/menuButton.jpg);
+        height: 30px;
+        width: 30px;
+        background-size: 100% 100%;
+        border-radius: 6px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    header .menuButt:hover .menu {
+        visibility: visible;
+    }
+
+    header .header-block .logo {
+        position: absolute;
+        left: 31%;
+    }
+
+    header .header-block .menu {
+        list-style: none;
+        position: absolute;
+        top: 50px;
+        left: -20px;
+        color: black;
+        font-size: 18px;
+        width: 500px;
+        background-color: white;
+        padding: 20px;
+        padding-left: 80px;
+        border-top: 1px solid black;
+        visibility: hidden;
+    }
+
+    header .header-block .menu li{
+        margin-left: 38px;
+        cursor: pointer;
+        display: inline;
+    }
+
+    header .header-block .backcall {
+        position: absolute;
+        left: 40px;
+        text-align: left;
+        top: 300%;
+    }
+
+    header .header-block .backcall li {
+        margin-bottom: 1%;
+    }
+
+    header .header-block .backcall .apply {
+        color: black;
+    }
+
+    .AreasOfWork h1 {
+        font-size: 30px;
+    }
+
+    .AreasOfWork .PicturesAreasOfWork {
+        height: 1500px;
+        margin-top: 20px;
+    }
+
+    .AreasOfWork .PicturesAreasOfWork .ContextualAdvert {
+        height: 20%;
+        width: 100%;
+    }
+
+    .AreasOfWork .PicturesAreasOfWork .TargetingAdvert {
+        height: 20%;
+        width: 100%;
+    }
+
+    .AreasOfWork .PicturesAreasOfWork .MakingSites {
+        height: 20%;
+        width: 100%;
+    }
+
+    .AreasOfWork .PicturesAreasOfWork .SMM {
+        height: 20%;
+        width: 100%;
+    }
+
+    .AreasOfWork .PicturesAreasOfWork .Audit {
+        height: 20%;
+        width: 100%;
+    }
+
+    .AreasOfWork .AboutUs {
+        margin-top: 160px;
+        position: relative;
+    }
+
+    .AreasOfWork .AboutUs .Info {
+        width: 84%;
+        margin: 0 8%;
+        margin-bottom: 60px;
+    }
+
+    .AreasOfWork .AboutUs .Info p {
+        font-size: 19px;
+        line-height: 140%;
+    }
+
+    .AreasOfWork .AboutUs .AbtUsImg {
+        width: 60%;
+        height: auto;
+        top: -120px;
+        left: 190px;
+        position: absolute;
+        margin: 0;
+    }
+
+    .AreasOfWork .AboutUs .AbtUsImg .DateTime {
+        width: 10.3%;
+    }
+
+    .AreasOfWork .AbtUsImg .DateTime .Month {
+        top: 2px;
+        font-size: 7px;
+    }
+
+    .AreasOfWork .AbtUsImg .DateTime .Day{
+        font-size: 16px;
+        top: 25%;
+    }
+
+    .AreasOfWork .AbtUsImg .DateTime .DayOfWeek{
+        bottom: 3px;
+        font-size: 6px;
+    }
+
+    .GoogleMap {
+        height: 300px;
+    }
+
+    footer {
+        width: 100%;
+        padding: 0;
+        height: 55%;
+        min-height: 270px;
+        position: relative;
+        font-size: 14px;
+    }
+
+    footer .footMenu {
+        margin-top: 40px;
+        margin-left: 4%;
+    }
+
+    footer .footMenu li {
+        margin-bottom: 15px;
+    }
+
+    footer .footAreasOfWork {
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    footer .footAreasOfWork li {
+        margin-bottom: 15px;
+    }
+
+    footer .Application {
+        color: #D8D8D8;
+        top: 170px;
+        position: absolute;
+        right: 7%;
+    }
+
+    footer .Contacts {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+
+    footer .SocialNetsShare {
+        top: 170px;
+        left: 6%;
+        position: absolute;
+    }
+}

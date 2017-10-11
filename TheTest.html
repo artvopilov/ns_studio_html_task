@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="StudioNS, Сайт, Продвижение, Оптимизация">
+    <meta http-equiv="keywords" content="StudioNS, Сайт, Продвижение, Оптимизация">
+    <meta name="description" content="Создание сайтов, оптимизация, администрирование">
+    <meta http-equiv="description" content="Создание сайтов, оптимизация, администрирование">
+    <meta name="viewport" content=user-scalable=yes,width=600">
+    <link href="Stylesheet.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/DateTime.js"></script>
+    <title>StudioNS</title>
+</head>
+<body>
+    <div class="Performance">
+        <header>
+            <div class="header-block">
+                <div class="menuButt"></div>
+                <div class="logo" style="color: black">
+                    <img src="images/logo.png" alt="StudioNS">
+                </div>
+                <div class="menuButt">
+                    <ul class="menu">
+                        <li><a href="#"></a>О нас</li>
+                        <li><a href="#"></a>Кейсы</li>
+                        <li><a href="#"></a>Услуги</li>
+                        <li><a href="#"></a>Контакты</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="backcall">
+                        <li class="number">8 (800) 100-87-18</li>
+                        <li class="apply"><a href="#"></a>Заказать звонок</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div>
+            <h1>Профессиональное продвижение,<br>вашего, бизнеса в сети</h1>
+            <h3>Дизайн. Разработка. Реклама. Креатив.</h3>
+        </div>
+    </div>
+    <div class="AreasOfWork">
+        <h1>Наши направления</h1>
+        <div class="PicturesAreasOfWork">
+            <div class="ContextualAdvert">
+                <img src="images/diagrams.png" alt="diagrams">
+                <div class="TextForImage">
+                    <h4>Контекстная реклама</h4>
+                    <ul>
+                        <li>Настройка яндекс.директ, google.adwords. Ведение рекламы</li>
+                        <li>Продающие объявления, низкая цена клика,</li>
+                        <li>Целевой трафик, поиск, РСЯ, КМС, Ретаргетинг</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="TargetingAdvert">
+                <img src="images/social_boxes.png" alt="social boxes">
+                <div class="TextForImage">
+                    <h4>Таргетная реклама</h4>
+                    <ul>
+                        <li>Настройка и ведение MYTARGET</li>
+                        <li>Креативность, точность, анализ</li>
+                        <li>Целевой трафик</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="MakingSites">
+                <img src="images/laptop.png" alt="laptop">
+                <div class="TextForImage">
+                    <h4>Создание сайтов</h4>
+                    <ul>
+                        <li>Создание сайтов любой сложности</li>
+                        <li>От сайтов-визиток до интернет-магазинов</li>
+                        <li>Сжатые сроки</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="SMM">
+                <img src="images/social_boxes.png" alt="social boxes">
+                <div class="TextForImage">
+                    <h4>SMM</h4>
+                    <ul>
+                        <li>SMM продвижение:</li>
+                        <li>VKontakte, Facebook, Instagram</li>
+                        <li>Постинг, обмен, таргет, отчетность</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Audit">
+                <img src="images/darts.png" alt="darts">
+                <div class="TextForImage">
+                    <h4>Аудит</h4>
+                    <ul>
+                        <li>Профссиональный анализ</li>
+                        <li>Рекомнендцаии</li>
+                        <li>Прототипирование</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="AboutUs">
+            <div class="Info">
+                <h2>О нас</h2>
+                <p>StudioNS - рекламное интернет-агенство полного цикла. Мы создаем для Вас сайты
+                любой сложности и рекламные кампании во всех каналах интернет продвижения. У нас
+                огромный опыт в разработке сайтов и комплксного продвижения в интернете.<br>
+                Мы с радостью создадим и продвинем для Вас интернет сайт в сети. Мы беремся за любые самые
+                сложные проекты в любом регионе России и гарантируем успешный вывод в топ вашего бизнеса.</p>
+            </div>
+            <div class="AbtUsImg">
+                <img src="images/publications.png" alt="publications">
+                <div class="DateTime">
+                    <div class="Month"></div>
+                    <div class="Day"></div>
+                    <div class="DayOfWeek"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="GoogleMap">
+        <div id="map">
+            <script>
+                function initMap() {
+                    var pos = {lat: 59.8281721, lng: 30.0952967};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat: 59.8281721, lng: 30.0952967},
+                        zoom: 17,
+                        styles: [ { "elementType": "geometry", "stylers": [ { "color": "#f5f5f5" } ] }, { "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] }, { "elementType": "labels.text.fill", "stylers": [ { "color": "#616161" } ] }, { "elementType": "labels.text.stroke", "stylers": [ { "color": "#f5f5f5" } ] }, { "featureType": "administrative.land_parcel", "elementType": "labels.text.fill", "stylers": [ { "color": "#bdbdbd" } ] }, { "featureType": "poi", "elementType": "geometry", "stylers": [ { "color": "#eeeeee" } ] }, { "featureType": "poi", "elementType": "labels.text.fill", "stylers": [ { "color": "#757575" } ] }, { "featureType": "poi.park", "elementType": "geometry", "stylers": [ { "color": "#e5e5e5" } ] }, { "featureType": "poi.park", "elementType": "labels.text.fill", "stylers": [ { "color": "#9e9e9e" } ] }, { "featureType": "road", "elementType": "geometry", "stylers": [ { "color": "#ffffff" } ] }, { "featureType": "road.arterial", "elementType": "labels.text.fill", "stylers": [ { "color": "#757575" } ] }, { "featureType": "road.highway", "elementType": "geometry", "stylers": [ { "color": "#dadada" } ] }, { "featureType": "road.highway", "elementType": "labels.text.fill", "stylers": [ { "color": "#616161" } ] }, { "featureType": "road.local", "elementType": "labels.text.fill", "stylers": [ { "color": "#9e9e9e" } ] }, { "featureType": "transit.line", "elementType": "geometry", "stylers": [ { "color": "#e5e5e5" } ] }, { "featureType": "transit.station", "elementType": "geometry", "stylers": [ { "color": "#eeeeee" } ] }, { "featureType": "water", "elementType": "geometry", "stylers": [ { "color": "#c9c9c9" } ] }, { "featureType": "water", "elementType": "labels.text.fill", "stylers": [ { "color": "#9e9e9e" } ] } ]
+                    });
+                    var marker = new google.maps.Marker({
+                        position: pos,
+                        map: map,
+                        icon: "images/marker.png"
+                    });
+                }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0-Bcx9358LW-IT_hLmZdLalc4HCpbz7g&callback=initMap">
+            </script>
+        </div>
+    </div>
+    <footer>
+        <ul class="footMenu">
+            <li>Главная</li>
+            <li>Кейсы</li>
+            <li>Услуги</li>
+            <li>Контакты</li>
+        </ul>
+        <ul class="footAreasOfWork">
+            <li>Контекстная реклама</li>
+            <li>Таргетинговая реклама</li>
+            <li>SMM</li>
+            <li>Создание сайтов</li>
+            <li>Аудит</li>
+        </ul>
+        <div class="Application">
+            <div class="formTitle">
+                Оставьте заявку и мы с вами свяжемся
+            </div>
+            <form id="ApplicationForm" action="" method="post">
+                <div>
+                    <label>ФИО:</label><br>
+                    <input id="fio" name="fio" type="text" placeholder="Смирнов Петр Васильевич">
+                </div>
+                <div>
+                    <label>Номер телефона:</label><br>
+                    <input id="phone" name="phone" type="tel" placeholder="+7(999)999-99-99">
+                </div>
+                <button id="submitButton">Отправить</button>
+            </form>
+        </div>
+        <ul class="Contacts">
+            <li>8 (800) 100-87-18</li>
+            <li><a>Заказать звонок</a></li>
+            <li>hello@studions.ru</li>
+        </ul>
+        <div class="SocialNetsShare">
+            <div class="SocNetTitle">Подпишитесь на наши соц сети</div>
+            <table>
+                <tr>
+                    <td id="facebook">
+                        <img src="images/facebook.png">
+                    </td>
+                    <td id="twitter">
+                        <img src="images/twitter.png">
+                    </td>
+                    <td id="insta">
+                        <img src="images/in.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="vk">
+                        <img src="images/vk.png">
+                    </td>
+                    <td id="odnoclass">
+                        <img src="images/ok.png">
+                    </td>
+                    <td id="youtube">
+                        <img src="images/youtube.png">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</body>
+</html>
